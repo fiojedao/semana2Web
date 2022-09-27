@@ -1,0 +1,219 @@
+html {
+    font-family: sans-serif, fantasy;
+    background: #EDE6E6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #EDE6E6;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    margin: 15px;
+}
+
+main {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.color-1 {
+    background: #FF3056;
+}
+
+.color-2 {
+    background: #08CFD5;
+}
+
+.color-3 {
+    background: #D7C901;
+}
+
+.main_body {
+    padding: 20px;
+    margin: 0;
+    background: #EDE6E6;
+}
+
+.header-text {
+    width: 70%;
+    margin: auto;
+}
+
+.header-text > a {
+    text-decoration: none;
+    color: black
+}
+
+.sub_header {
+    font-size: 50px;
+}
+.sub-sub_header {
+    font-size: 30px;
+}
+
+.content {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    padding-top: 30px;
+}
+
+.content-img-profile {
+    margin-top: 20px;
+}
+
+.img_progile {
+    border-radius: 175px;
+}
+
+.content_anchor {
+    display: flex;    
+    margin: 20px 0;
+}
+
+.content_anchor > a {
+    text-decoration: none;
+
+}
+
+.archor_element {
+    border-radius: 50%;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    height: 130px;
+    width: 130px;
+    justify-content: center;
+}
+
+.main_footer {
+    padding: 20px;
+    width: 100%;
+    background: #FF3056;
+    bottom: 0;
+}
+
+.cv-main_footer {
+    padding: 20px;
+    width: 100%;
+    background: #FF3056;
+    position: absolute;
+    bottom: 0;
+}
+
+.content_footer {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    position: relative;
+    
+}
+
+.icon-img  {
+    border-radius: 50%;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-img > svg {
+    fill: white;
+    width: 30px;
+    height: 30px;
+}
+
+.content_footer-element {
+    color: white;
+    margin: auto;
+    width: 25%;
+    justify-content: center;
+    display: flex;
+}
+
+.text-footer {
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+.text-footer > p > a {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.social-networks_svg > a > svg {
+    fill: white;
+    height: 20px;
+}
+
+.social-networks_svg > a {
+    margin: 0;
+    text-decoration: none;
+}
+
+.networks_svg {
+    display: flex;
+}
+
+.s1 {
+    width: 25%;
+}
+
+.s2 {
+    width: 50%;
+}
+
+.s3 {
+    width: 75%;
+}
+
+.s4 {
+    width: 100%;
+}
+
+.cv-content {
+    font-size: 15px;
+    display: block;
+    width: 70%;
+}
+
+.cv_skill {
+    margin-left: 20px;
+    display: block;
+    width: 30%;
+}
+
+.content_body {
+    width: 100%;
+    display: flex;
+}
+
+.cv-perfil_professional {
+    display: block;
+}
+
+.table_skill {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.table_skill > thead > tr > th,
+.table_skill > tbody > tr > td {
+    margin: 0 20px;
+}
